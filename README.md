@@ -1,8 +1,12 @@
-# Examin
+<img alt="Examin Cover" src="./src/extension/assets/githubcover-img.png" width="700">
 
-[Examin.dev](https://www.examin.dev/)
+<hr>
+<h2>Examin</h2>
+<i>Automatic React Unit Test Generator</i><br>
+<a href="https://www.examin.dev/">examin.dev</a> | <a href="https://chrome.google.com/webstore/detail/examin/ihhopbmcfgkpjklemfdbhgingabdkcpe">Install Examin</a>
+<hr>
 
-## _Automatic React Unit Test Generator_
+<br/>
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE)
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)]()
@@ -12,7 +16,7 @@
 
 ## Features ⚡
 
-Examin is a Chrome extension that generates React unit tests for your application. Ensure your application renders as expected before adding new features. Examin generates the baseline unit tests and allows developers to customize their tests for their application.
+Examin is a developer tool that generates React unit tests for your application. Ensure your application renders as expected before adding new features. Examin writes the baseline unit tests and allows developers to customize their tests for their application.
 
 - Install the Examin extension
 - Install npm dependencies for Jest/Enzyme
@@ -55,14 +59,20 @@ NOTE: The React Developer Tools extension is also required for Examin to run, if
    - Add test js file to `__tests__` directory
    - Run tests using `jest` or `jest <filename>`
 
-<br/><img alt="Editing Import Statements Demo Gif" src="./src/extension/assets/edit-import-statements.gif" width="700">
+<br/><img alt="Editing Import Statements Demo Gif" src="./src/extension/assets/step3.gif" width="700">
 
 - Editing import statements
 
-<br/><img alt="State Change and Component Selection Demo Gif" src="./src/extension/assets/state-changes-component-selection.gif" width="700">
+<br/><img alt="State Change and Component Selection Demo Gif" src="./src/extension/assets/step2.gif" width="700">
 
 - Updating tests with state changes
 - Selecting components for generated tests
+
+## Compatibility
+
+- Requires React v16.8.0 or higher
+- Functional components + React hooks
+- Not yet compatible with component libraries or Context API
 
 ## Troubleshooting ⁉️
 
