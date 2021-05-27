@@ -1,7 +1,7 @@
 {
 	"name": "Examin",
 	"description": "A Chrome extension developer tool that generators Jest/Enzyme render unit tests for React applications",
-	"version": "1.0.0.1",
+	"version": "1.0.0.2",
 	"author": "Ty Doan, Kirsten Yoon, Nicholas Brush, Cliff Assuncao",
 	"manifest_version": 2,
 	"background": {

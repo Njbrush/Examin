@@ -9,7 +9,7 @@ const source = `
       ${`npm install jest enzyme enzyme-adapter-react-16 @babel/core @babel/preset-env`}
    - Add **presets** to your .babelrc file <br/>
       { "presets": ["@babel/preset-env", "@babel/preset-react"] } 
-   - Must have **React DevTools** extenion installed
+   - Must have **React DevTools** extension installed
    - Must be in developer mode (no minification or uglification)
    
 **2. Select Unit Tests**
@@ -17,10 +17,10 @@ const source = `
    - Edit import statements as needed
 
 **3. Export to Project Files**
-   - Copy/Pase or Expot the Jest test file into your Project Directory
+   - Copy/Paste or Export the Jest test file into your Project Directory
 
 ## Additional Information
-- **exmain.dev**
+- **examin.dev**
 - GitHub: **github.com/oslabs-beta/Examin**
 - Contact: **examindev@gmail.com** 
 
